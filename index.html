@@ -10,28 +10,28 @@
 <body>    
     <main>
         <section>
-            <input type="text" name="resultado" id="resultado">
-            <button>C</button>
+            <input type="text" name="resultado" id="resultado" readonly>
+            <button id="limpiar" onclick="limpiar()">C</button>
         </section>
 
         <section>
             <!-- Numeros -->
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>0</button>
+            <button id="uno" onclick="digito(1)">1</button>
+            <button id="dos" onclick="digito(2)">2</button>
+            <button id="tres" onclick="digito(3)">3</button>
+            <button id="cuatro" onclick="digito(4)">4</button> 
+            <button id="cinco" onclick="digito(5)">5</button>
+            <button id="seis" onclick="digito(6)">6</button>
+            <button id="siete" onclick="digito(7)">7</button>
+            <button id="ocho" onclick="digito(8)">8</button>
+            <button id="nueve" onclick="digito(9)">9</button>
+            <button id="diez" onclick="digito(0)">0</button>
             <!-- operaciones -->
-            <button>+</button>
-            <button>-</button>
-            <button>x</button>
-            <button>/</button>
-            <button>=</button>
+            <button id="suma" onclick="op('+')">+</button>
+            <button id="resta" onclick="op('-')">-</button>
+            <button id="multiplicacion" onclick="op('*')">x</button>
+            <button id="division" onclick="op('/')">/</button>
+            <button id="resultado" onclick="resultado()">=</button>
         </section>
     </main>
 
