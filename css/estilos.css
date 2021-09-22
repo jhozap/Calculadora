@@ -35,4 +35,9 @@ main button {
   border-radius: 5px;
   font-size: 20px;
 }
+
+main #limpiar {
+  background-color: red;
+  color: white;
+}
 /*# sourceMappingURL=estilos.css.map */
